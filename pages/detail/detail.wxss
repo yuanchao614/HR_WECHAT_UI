@@ -1,0 +1,46 @@
+/* pages/detail/detail.wxss */
+
+.house-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-box {
+  width: 90%;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.number {
+  display: flex;
+  justify-content: space-around;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: red;
+  margin: 10px 0;
+}
+
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box {
+  width: 90%;
+  height: 350rpx;
+  border-radius: 6px;
+  background: rgba(41, 150, 254);
+}
+
+.footer-box {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+}
+
+.footer-sub-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 10rpx 0;
+}

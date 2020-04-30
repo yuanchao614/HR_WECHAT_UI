@@ -1,0 +1,72 @@
+<form bindsubmit="houseFormSubmit">
+  <view class="content" style="height:{{winHeight}}px">
+    <view class="form-content">
+      <view class="form-input {{mobileActive ? 'active' : ''}}">
+        <view class="left-icon center">
+          <image src="../images/phonemini.png" style="width:60%;height:50%;"></image>
+        </view>
+        <view class="right-input">
+          <input class="input-style" type='text' name="name" placeholder="请输入房屋名称" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+        </view>
+      </view>
+      <view class="form-input {{mobileActive ? 'active' : ''}}">
+        <view class="left-icon center">
+          <image src="../images/phonemini.png" style="width:60%;height:50%;"></image>
+        </view>
+        <view class="right-input">
+          <input class="input-style" type='number' name="houseType" placeholder="请输入房屋型号" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+        </view>
+      </view>
+      <view class="form-input {{mobileActive ? 'active' : ''}}">
+        <view class="left-icon center">
+          <image src="../images/phonemini.png" style="width:60%;height:50%;"></image>
+        </view>
+        <view class="right-input">
+          <input class="input-style" type='number' name="mousePrice" placeholder="请输入月租金额" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+        </view>
+      </view>
+       <view class="form-input {{mobileActive ? 'active' : ''}}">
+          <view class="left-sub-input">
+            <input class="input-style" type='text' name="floor" placeholder="楼层" style="text-align:center" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+          </view>
+          <view class="center-sub-input">
+            <input class="input-style" type='text' name="towards" placeholder="朝向" style="text-align:center" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+          </view>
+              <view class="right-sub-input">
+            <input class="input-style" type='text' name="area" placeholder="面积" style="text-align:center" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+          </view>
+        </view>
+      <view class="form-input {{pwActive ? 'active' : ''}}">
+        <view class="left-icon center">
+          <image src="../images/pw.png" style="width:60%;height:50%;"></image>
+        </view>
+        <view class="right-input">
+          <input class="input-style" type='text' name="payMethod" placeholder="请输入交租方式" placeholder-style="color: rgba(255,255,255,1)" />
+        </view>
+      </view>
+            <view class="form-input {{mobileActive ? 'active' : ''}}">
+              <view class="left-icon center">
+                <image src="../images/phonemini.png" style="width:60%;height:50%;"></image>
+              </view>
+              <view class="right-input">
+                <input class="input-style" type='number' name="address" placeholder="请输入地址" placeholder-style="color: rgba(255,255,255,1)" maxlength='11' />
+              </view>
+            </view>
+            <view class="form-input {{mobileActive ? 'active' : ''}}">
+            <view class="left-icon center">
+              <image src="../images/phonemini.png" style="width:60%;height:50%;"></image>
+            </view>
+            <view class="right-input">
+              <input class="input-style" type='number' name="introduce" placeholder="请输入简介" placeholder-style="color: rgba(255,255,255,1)" />
+            </view>
+          </view>
+    </view>
+    <view class="submit-content">
+      <view class="enterprise-login">
+        <button class="box center" style="width:100%;" formType="submit">
+          <view class="text">发布</view>
+        </button>
+      </view>
+    </view>
+  </view>
+</form>

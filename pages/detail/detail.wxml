@@ -1,0 +1,69 @@
+<view class="house-detail">
+  <view class="center-box">
+    <view class="title-box">
+      东二环7号线，精装套二，东二环7号线，精装套二,家具全面，随时看房.....
+    </view>
+  </view>
+  <view class="number">
+    <view>1200/每月</view>
+    <view>2室1厅1卫</view>
+    <view>90平米</view>
+  </view>
+  <view class="center-box">
+    <view class="image-box">
+
+    </view>
+  </view>
+
+  <view class="center-box">
+    <view class="footer-box">
+      <view class="footer-sub-box">
+        <view style="width:50%;">
+          类型：
+          <text>公寓</text>
+        </view>
+        <view style="width:50%;">
+          朝向：
+          <text>朝南</text>
+        </view>
+      </view>
+      <view class="footer-sub-box">
+        <view style="width:50%;">
+          楼层：
+          <text>12楼</text>
+        </view>
+        <view style="width:50%;">
+          付款方式：
+          <text>押一付三</text>
+        </view>
+      </view>
+      <view class="footer-sub-box">
+      <view style="width:50%;">
+          联系方式：
+          <text>公寓</text>
+        </view>
+        <view style="width:50%;">
+          联系人姓名：
+          <text>公寓</text>
+        </view>
+      </view>
+      <view class="footer-sub-box">
+        <view style="width:20%;">
+          地址：
+        </view>
+         <view style="width:80%;">
+        成都市锦江区东门大桥
+        </view>
+      </view>
+       <view class="footer-sub-box">
+        <view style="width:20%;">
+          简介：
+        </view>
+        <view style="width:80%;">
+          简介信息详情，简介信息详情，简介信息详情简介信息详情，简介信息详情
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
